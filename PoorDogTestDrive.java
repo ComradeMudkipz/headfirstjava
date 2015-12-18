@@ -4,10 +4,10 @@ class PoorDog {
     private String name;
 
     public int getSize() {
-        return size;
+        return size;        // returns 0; no assigned value
     }
     public String getName() {
-        return name;
+        return name;        // returns null; no assigned value
     }
 
 }
