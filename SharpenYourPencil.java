@@ -3,45 +3,42 @@
 
 // declare an integer variable named 'size' and give it the value 27
 int size = 27;
-// declare a string variable named 'name' and give it the value 'Fido'
+// declare a string of characters variable named 'name' and give it the value "Fido"
 String name = "Fido";
-//
+// declare a new Dog variable 'myDog' and make the new Dog using 'name' and 'size'
 Dog myDog = new Dog(name, size);
-// declare a variable 'x' and give it the value of the 'size' variable subtracted
-// by 5
+// subtract 5 from 27 (value of 'size') and assign it to a variable named 'x'
 x = size - 5;
-// sets the conditional that if the variable 'x' is less than 15 under the 'myDog'
-// class calling the 'bark' method with a parameter of 8, execute below
+// if x (value of 22) is less than 15, tell the dog to bark 8 times
 if (x < 15) myDog.bark(8);
 
-//
+// keep looping as long as x is greater than 3
 while (x > 3) {
-    // calls the 'play' method in the 'myDog' class
+    // tell the dog to play (whatever THAT means to a dog...)
     myDog.play();
-// end block
+// this looks like the end of the loop -- everything in {} is done in the loop
 }
 
-// gives the integers '2,4,6,8' in a new array named 'numList'
+// declare a list of integers variable 'numList', and put 2,4,6,8 into the list
 int [] numList = {2,4,6,8};
-// prints the string "Hello"
+// print out "Hello"... probably at the command-line
 System.out.print("Hello");
-// prints the string "Dog:" concatenated with the 'name' variable
+// print out "Hello Fido" (the value of 'name' is "Fido") at the command-line
 System.out.print("Dog: " + name);
-// declares a string variable named 'num' and give it the value "8"
+// declare a character string variable 'num' and give it the value of "8"
 String num = "8";
-// declares an integer variable named 'z' and calls the 'parseInt' method with a
-// parameter 'num' in the 'Integer' class
+// convert the string of characters "8' into an actual numeric value 8
 int z = Integer.parseInt(num);
 
-//
+// try to do something... maybe the thing we're trying isn't guaranteed to work...
 try {
-    //
+    // read the text file named "myFile.txt" (or at least TRY to read the file...)
     readTheFile("myFile.txt");
-// end block
+// must be the end of the "things to try", so I guess you could try many things...
 }
-//
+// this must be where you find out if the thing you tried didn't work...
 catch(FileNotFoundException ex) {
-    //
+    // if the thing we tried failed, print "File not found" out at the command-line
     System.out.print("File not found.");
-// end block
+// looks like everything in the {} is what to do if the 'try' didn't work...
 }
