@@ -21,7 +21,7 @@ class PoolPuzzleOne {
             if () {
                 ;
             }
-            System.out.println("");
+            System.out.println(" ");
             ;
         }
     }
