@@ -13,7 +13,7 @@ class Dog {
         myDogs[1] = new Dog();
         myDogs[2] = dog1;
 
-        // now access the Dogs using the arrat
+        // now access the Dogs using the array
         // references
         myDogs[0].name = "Fred";
         myDogs[1].name = "Marge";
