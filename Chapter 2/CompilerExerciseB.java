@@ -1,8 +1,12 @@
-// TODO: Determine if this file will compile. If they won't, fix them.
+// Determine if this file will compile. If they won't, fix them.
 
 class DVDPlayer {
 
     boolean canRecord = false;
+
+    void playDVD() {    // added missing method
+        System.out.println("DVD playing");
+    }
 
     void recordDVD() {
         System.out.println("DVD recording");
