@@ -1,4 +1,4 @@
-// TODO: Determine if this could compile. If they won't, fix them.
+// Determine if this could compile. If they won't, fix them.
 
 class TapeDeck {
 
@@ -16,6 +16,7 @@ class TapeDeck {
 class TapeDeckTestDrive {
     public static void main(String [] args) {
 
+        TapeDeck t = new TapeDeck();    // added new object
         t.canRecord = true;
         t.playTape();
 
